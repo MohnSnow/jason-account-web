@@ -9,6 +9,13 @@
         <package name="entity" />
 
     </typeAliases>
+    <typeAliases>
+        <typeAlias alias="StudentEntity" type="com.jason.account.web.entity.StudentEntity"/>
+    </typeAliases>
+
+    <mappers>
+        <mapper resource="com/jason/account/web/mapper/StudentMapper.xml" />
+    </mappers>
 
 
     <!--由于使用了spring和mybatis整合的mapper扫描器，-->
