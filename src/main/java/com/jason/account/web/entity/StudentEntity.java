@@ -1,0 +1,58 @@
+package com.jason.account.web.entity;
+
+import java.io.Serializable;
+import java.util.Date;
+
+/**
+ * Created by MengDexin.
+ * Date : 17/9/20.
+ * Time : 13:02.
+ */
+public class StudentEntity implements Serializable{
+    private static final long serialVersionUID = -6481106377101488452L;
+    private String classId;
+    private Date studentBirthday;
+    private String studentID;
+    private String studentName;
+    private String studentSex;
+
+    public String getClassEntity() {
+        return classId;
+    }
+
+    public Date getStudentBirthday() {
+        return studentBirthday;
+    }
+
+    public String getStudentID() {
+        return studentID;
+    }
+
+    public String getStudentName() {
+        return studentName;
+    }
+
+    public String getStudentSex() {
+        return studentSex;
+    }
+
+    public void setClassEntity(String classId) {
+        this.classId = classId;
+    }
+
+    public void setStudentBirthday(Date studentBirthday) {
+        this.studentBirthday = studentBirthday;
+    }
+
+    public void setStudentID(String studentID) {
+        this.studentID = studentID;
+    }
+
+    public void setStudentName(String studentName) {
+        this.studentName = studentName;
+    }
+
+    public void setStudentSex(String studentSex) {
+        this.studentSex = studentSex;
+    }
+}
